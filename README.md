@@ -2,13 +2,7 @@
 
 # Random Quote Generator
 
-| ![Results Summary Component](images/desktop-screenshot.png) | ![Results Summary Component](images/mobile-screenshot.png) |
-| ----------------------------------------------------------- | ---------------------------------------------------------- |
-
-| ![Results Summary Component](images/desktop-qr-screenshot.png) | ![Results Summary Component](images/mobile-qr-screenshot.png) |
-| -------------------------------------------------------------- | ------------------------------------------------------------- |
-
-[Live URL]()
+[Live URL](https://mike-dave.github.io/qr-code-generator/)
 
 </div>
 
@@ -20,6 +14,12 @@ Users should be able to:
 
 1. Generate QR code Images
 1. Get a responsive layout regardless of their screen size
+
+| ![Results Summary Component](images/desktop-screenshot.png) | ![Results Summary Component](images/mobile-screenshot.png) |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+
+| ![Results Summary Component](images/desktop-qr-screenshot.png) | ![Results Summary Component](images/mobile-qr-screenshot.png) |
+| -------------------------------------------------------------- | ------------------------------------------------------------- |
 
 ## Built With
 
