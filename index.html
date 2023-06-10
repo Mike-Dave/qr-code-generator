@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR-Code Generator</title>
+    <!-- My css stylesheet -->
+    <link rel="stylesheet" href="output.css" />
+
+    <!-- Javscript file link -->
+    <script defer src="script.js"></script>
+  </head>
+  <body class="flex items-center min-h-screen bg-[#27374D]">
+    <main
+      class="container mx-auto flex flex-col gap-3 w-[80%] bg-white rounded-2xl max-w-md"
+    >
+      <section class="mx-auto pt-8">
+        <h1 class="text-center font-bold pb-2 md:text-xl md:pb-3">
+          Enter your text or URL
+        </h1>
+        <input
+          id="textInput"
+          class="outline-blue outline outline-1 border border-blue p-2 px-6 rounded-fulsl w-[15.625rem] mx-7 mb-2 placeholder:p- placeholder:text-sm md:w-[21.875rem]"
+          type="text"
+          placeholder="Text or URL"
+        />
+      </section>
+      <picture
+        id="image-container"
+        class="transition-all duration-[2s] ease-[cubic-bezier(0.61, 0.01, 0.51, 0.87)] w-[0]"
+      >
+        <img
+          id="qrImg"
+          class="mx-auto border-4 border-solid border-zinc-700 p-2 hidden"
+          alt="qr-code image"
+        />
+      </picture>
+      <button
+        id="btn"
+        class="mx-auto mt-2 mb-8 bg-blue-600 px-8 p-3 w-[15.625rem] text-white rounded-faull md:w-[21.875rem] transition-all duration-300 hover:opacity-80 hover:-translate-y-2"
+      >
+        Generate QR Code
+      </button>
+    </main>
+  </body>
+</html>
